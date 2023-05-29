@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form Task</title>
 </head>
+
 <body>
+  <!-- create a form  -->
   <form action="">
+    <!-- title of form  -->
     <h1>Basic HTML FORM</h1>
+    <!-- start name field set  -->
     <fieldset>
       <legend>Name</legend>
       <label for="">First name</label>
@@ -16,9 +21,12 @@
       <label for="">last name</label>
       <input type="text" name="" id="">
     </fieldset>
+    <!-- end name field set  -->
+    <!-- start other questions field set  -->
     <fieldset>
       <legend>Other Questions</legend>
-      <label for="">First name</label>
+      <!-- start radio group  -->
+      <label for="">Choose a drink</label>
       <label for="coffee">Coffee</label>
       <input type="radio" name="drink" id="coffee" value="coffee">
       <label for="tea">Tea</label>
@@ -26,6 +34,9 @@
       <label for="choclete">Hot choclete</label>
       <input type="radio" name="drink" id="choclete" value="choclete">
       <br>
+      <!-- end radio group  -->
+      <!-- start check boxes group  -->
+
       <label for="">What the ice cream do you like ?</label>
       <label for="chocleteCB">choclete</label>
       <input type="checkbox" name="iceCream" id="chocleteCB" value="Chocolete">
@@ -37,18 +48,25 @@
       <input type="checkbox" name="iceCream" id="vanilla" value="vanilla">
       <label for="srawberry">srawberry</label>
       <input type="checkbox" name="iceCream" id="srawberry" value="srawberry">
+      <!-- end check boxes group  -->
+      <!-- start select element  -->
       <label for="schoolSelect">Select a school : </label>
       <select name="" id="schoolSelect">
         <option value="Harvard">Harvard</option>
         <option value="Up">Up</option>
         <option value="Azher">Azher</option>
       </select>
+      <!-- end select element  -->
+      <!-- start comments  -->
       <label for="comments">please provide comments</label>
       <textarea name="" id="comments" cols="30" rows="10"></textarea>
     </fieldset>
+    <!-- end other questions field set  -->
+
     <input type="submit" value="Submit">
     <br>
     <br>
   </form>
 </body>
+
 </html>
